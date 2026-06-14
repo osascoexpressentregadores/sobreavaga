@@ -11,8 +11,8 @@ Arquivo principal: `index.html`.
 - Fluxo para iPhone/iOS direcionado ao suporte para instalação orientada.
 - Layout revisado para celular e computador.
 - Desktop com leitura em duas colunas: gibi à esquerda e cadastro/app à direita.
-- Mobile com botões em largura total, área de toque maior e rodapé fixo.
-- Botão final do último card abre o app direto.
+- Mobile com botões em largura total, área de toque maior e rodapé fixo sem CTA duplicado no final.
+- No último card, o botão inferior vira **Ver cadastro** e leva para a área final, evitando duplicidade de CTA.
 - Paginação com acessibilidade, foco visível, swipe no celular e teclado no computador.
 - Imagens mantidas em WebP para carregar leve no celular.
 
@@ -30,3 +30,9 @@ assets/
     04-o-que-voce-precisa-pra-rodar.webp
   pages.json
 ```
+
+## Correção rápida aplicada
+
+- Removido o botão redundante **BAIXAR APP E CADASTRAR**.
+- Mantido apenas um CTA de download na área final: **BAIXAR APP**.
+- Mantido o botão separado para iPhone: **Tenho iPhone? Chamar suporte**.
